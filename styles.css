@@ -1,0 +1,21 @@
+html { 
+  font-family: sans-serif; 
+  font-size: 16px;
+  color: #171717; }
+
+body {
+  background: #171717; 
+  margin: 0; 
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { 
+  font-weight: bold; 
+  color: #57acf2; }
+
+a { 
+  color: #57acf2; 
+  text-decoration: none; }
+
+hr { 
+  border: 0; 
+  border-bottom: 1px solid #57acf2; }
