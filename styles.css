@@ -1,0 +1,99 @@
+/* Body */
+body { 
+    background: #fff;
+    font-family: sans-serif;
+    color: #222;
+    font-size: 14pt; 
+    overflow: scroll;
+  }
+  
+  /* Links */
+  a {
+    color: #57acf2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Elements */
+  form { 
+    margin: 1em;
+  }
+  
+  form label,
+  form input,
+  form textarea {
+    display: block;
+    width: 90%;
+    margin: .5em;
+    padding: .5em;
+  }
+  
+  form input,
+  form textarea {
+  	background: #ddd;
+  }
+  
+  form input[type="submit"] {
+    background: #57acf2;
+    color: #fff;
+  }
+  
+  form input[type="submit"]:hover {
+    background: #4090d2;
+  }
+  
+  /* Headers */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #57acf2;
+    margin: .5em 0;
+    letter-spacing: 1px;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background: #222;
+    color: #fff;
+  }
+  
+  td, th {
+    padding: .5em;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    color: #222;
+    background: #57acf2;
+    padding: .5em;
+    border-bottom: 1px solid #4090d2;
+  }
+  
+  nav a:hover {
+    background: #4090d2;
+  }
+  
+  /* Section Elements */
+  section {
+    background: #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
