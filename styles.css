@@ -1,0 +1,30 @@
+/* Primary Color */
+html {
+   background-color: #57acf2;
+}
+
+/* Links */
+a { 
+   color: #57acf2;
+   text-decoration: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+   color: #57acf2;
+   font-family: sans-serif;
+}
+
+/* Text */
+p {
+   font-family: sans-serif;
+   color: #000000;
+}
+
+/* Buttons */ 
+button {
+   font-family: sans-serif;
+   background-color: #57acf2;
+   color: #ffffff;
+   padding: 8px;
+}
