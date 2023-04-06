@@ -1,1 +1,6 @@
-{"root": "public/", "routes": {"/**": "index.html"}}
+{
+  "root": "./",
+  "routes": {
+    "/**": "index.html"
+  }
+}
