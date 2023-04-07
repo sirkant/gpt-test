@@ -1,31 +1,26 @@
-/* CSS Structure */
+/* This is a basic CSS structure for a website with primary color #004EFF */
 
-body { 
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-    color: #555;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
+body {
+    background-color: #004EFF;
+    font-family: sans-serif, Arial;
+    color: #ffffff;
 }
 
 a {
-    color: #008AD8;
+    color: #004EFF;
     text-decoration: none;
 }
 
-a:hover, a:focus {
-    color: #005699;
-    text-decoration: underline;
+h1, h2, h3 {
+    color: #ffffff;
 }
 
-p, ul, ol {
-    margin-bottom: 1.5em;
+.primary-color {
+    background-color: #004EFF;
+    color: #000;
 }
 
-input, select, textarea {
-    border: 1px solid #E0E0E0;
-    padding: 0.5em;
-    margin: 0.25em;
+.secondary-color {
+    background-color: #007aff;
+    color: #fff;
 }
