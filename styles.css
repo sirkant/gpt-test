@@ -1,40 +1,85 @@
 /* Primary Color */
-  body {
-    background-color: #008AD8;
-  }
 
-/* Default Font */
-  body, p, h1, h2, h3 {
-    font-family: sans-serif;
-  }
+:root{
+	--primary-color: #0077B5;
+}
 
-/* Text Styling */
-  p, h1, h2, h3 {
-    color: #fff;
-    text-align: center;
-  }
+/* Global */
 
-/* Link Styling */
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background: #efefef;
+	color: #444;
+	text-align:center;
+}
 
-/* Navigation Styles */
-  ul {
-    list-style-type: none;
-  }
+/* Header */
 
-  ul li {
-    float: left;
-    width: 20%;
-  }
+header {
+	background: var(--primary-color);
+	padding: 30px 0;
+}
 
-  ul li a {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    background-color: #000;
-    text-align: center
-  }
+header h1 {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Navigation */ 
+
+nav {
+	background: #eee;
+	padding: 20px 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #444;
+	text-decoration: none;
+	background: #ddd;
+	transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	background: #999;
+	color: var(--primary-color);
+}
+
+/* Main Content */
+
+main {
+	background: white;
+	padding: 30px 0;
+	min-height: 600px;
+}
+
+/* Footer */
+
+footer {
+	background: #f7f7f7;
+	padding: 20px 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.8em;
+	color: #444;
+	margin: 0;
+}
