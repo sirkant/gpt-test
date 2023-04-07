@@ -1,26 +1,66 @@
-/* This is a basic CSS structure for a website with primary color #004EFF */
+/* -------------------------------------
+  Base Styles
+------------------------------------- */
 
+html {
+  font-size:62.5%; /* 10px = 1rem */
+  box-sizing: border-box;
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/* ------------------------
+  Headings & Paragraphs
+------------------------ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 1.5rem 0;
+  color: #111;
+}
+
+p {
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+  color: #111;
+}
+
+/* ------------------------
+  Body & Global Styling
+------------------------ */
 body {
-    background-color: #004EFF;
-    font-family: sans-serif, Arial;
-    color: #ffffff;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  color: #111;
+  line-height: 1.6;
+  font-family: sans-serif;
+  font-weight: 400;
 }
 
+/* ------------------------
+  Primary Color
+------------------------ */
+
+:root {
+  --primary-color: #0008ff; /* Blue */
+}
+
+/* Links */
 a {
-    color: #004EFF;
-    text-decoration: none;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
-h1, h2, h3 {
-    color: #ffffff;
+a:hover,
+a:focus {
+  color: #0026ff;  /* Darker shade of blue */
 }
 
-.primary-color {
-    background-color: #004EFF;
-    color: #000;
-}
-
-.secondary-color {
-    background-color: #007aff;
-    color: #fff;
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
 }
