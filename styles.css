@@ -1,1 +1,40 @@
-body { ... }
+/* Primary Color */
+  body {
+    background-color: #008AD8;
+  }
+
+/* Default Font */
+  body, p, h1, h2, h3 {
+    font-family: sans-serif;
+  }
+
+/* Text Styling */
+  p, h1, h2, h3 {
+    color: #fff;
+    text-align: center;
+  }
+
+/* Link Styling */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+/* Navigation Styles */
+  ul {
+    list-style-type: none;
+  }
+
+  ul li {
+    float: left;
+    width: 20%;
+  }
+
+  ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    background-color: #000;
+    text-align: center
+  }
